@@ -1,11 +1,11 @@
-.jumbotron
+/* .jumbotron
 {   
 padding-top: 0px;
 padding-bottom: 0px;
 background-image:url('../Images/kaffee-meister-1404043-unsplash.jpg');
 background-size: cover;
-background-position-y: -400px;
-height:550px;
+background-position-y: -600px;
+height:100px;
  }
 
  .card-body{
@@ -14,7 +14,7 @@ height:550px;
     background-size: cover;
     width: 330px;
     height: 240px;
-     border-radius: 20px; 
+   border-radius: 20px; 
     box-sizing: border-box;
 
     
@@ -79,5 +79,196 @@ height:550px;
  }
  body{
      background-color: rgba(220, 220, 220, 0.411);
+ } */
+ .jumbotron
+   {   
+   padding-top: 0px;
+   padding-bottom: 0px;
+   background-image:url('../Images/kaffee-meister-1404043-unsplash.jpg');
+   background-size: cover;
+   background-position-y: -400px;
+   height:100px;
+    }
+ .card-1{
+   border-radius:20px;
+   
+   transition: box-shadow .3s;
+}
+.card-1:hover{
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.card-2{
+   border-radius:20px;
+   
+   transition: box-shadow .3s;
+}
+.card-2:hover{
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.card-3{
+   border-radius:20px;
+   
+   transition: box-shadow .3s;
+}
+.card-3:hover{
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.card-4{
+   border-radius:20px;
+
+   transition: box-shadow .3s;
+}
+.card-4:hover{
+   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+               /* for iphone */
+ @media only screen and (min-width:200px) and (max-width:500px){
+   /* .jumbotron{
+    display:flex;
+   } */
+
+   .Smoothie-cards{
+      display: grid;
+      grid-template-columns:1fr;
+      padding-right: 0px;
+      padding-left: 20px;
+   }
+   .card-body{
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      width: 200px;
+      height: 300px;
+      border-radius: 20px; 
+      box-sizing: border-box;
+   }
+    .card-img-top{
+    border-radius: 20px;
+   }
+   .Milkshakes-cards{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-right: 0px;
+      padding-left: 20px;
+   }
+   .jumbotron{   
+      padding-top: 0px;
+      padding-bottom: 0px;
+      background-image:url('../Images/kaffee-meister-1404043-unsplash.jpg');
+      background-size: cover;
+      background-position-y:0px;
+      background-position-x: -50px;
+      height:350px;
+      width: 460px;
+      /* width: 500px; */
+      
+ }
+ div h2{
+   text-align: center;
+   padding-left: 0px;
+}
+ .navbar{
+padding-right: 90px;
+ }
+}
+         /* TABLET */
+@media only screen and (min-width:1000px) and (max-width:1230px){
+   .jumbotron{
+    display:flex;
+   }
+
+   .Smoothie-cards{
+      display: grid;
+      grid-template-columns:1fr 1fr; 
+      padding-right: 60px;
+      padding-left: 140px;
+   }
+   .card-body{
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      width: 200px;
+      height: 300px;
+      border-radius: 20px; 
+      box-sizing: border-box;
+   }
+    .card-img-top{
+    border-radius: 20px;
+   }
+   .Milkshakes-cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-right: 60px;
+      padding-left: 140px;
+   }
+   .jumbotron{   
+      padding-top: 0px;
+      padding-bottom: 0px;
+      background-image:url('../Images/kaffee-meister-1404043-unsplash.jpg');
+      background-size: cover;
+      background-position-y:548px;
+      background-position-x: 0px;
+      height:550px;
  }
  
+ div h2{
+   text-align: center;
+   padding-left: 50px;
+}
+}
+@media only screen and (min-width:1279px){
+
+   .jumbotron
+   {   
+   padding-top: 0px;
+   padding-bottom: 0px;
+   background-image:url('../Images/kaffee-meister-1404043-unsplash.jpg');
+   background-size: cover;
+   background-position-y: 700px;
+   height:600px;
+    }
+   
+    .card-body{
+       background-repeat: no-repeat;
+       background-position: 50% 50%;
+       background-size: cover;
+       width: 330px;
+       height: 240px;
+      border-radius: 20px; 
+       box-sizing: border-box;
+   
+       
+    }
+     .card-img-top{
+     border-radius: 20px;
+    }
+    .Smoothie-cards{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       justify-content: space-between;
+       width: auto;
+       box-sizing: border-box;
+       padding-left: 138px;
+    }
+   
+   .Milkshakes-cards{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       justify-content: space-between;
+       width: auto;
+       box-sizing: border-box;
+       padding-left: 138px;
+
+   }
+
+    div h2{
+        text-align: center;
+        padding-right: 20px;
+      
+    }
+    body{
+        background-color: rgba(220, 220, 220, 0.411);
+    }
+
+}

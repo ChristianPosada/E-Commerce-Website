@@ -8,4 +8,44 @@ body{
 }
 .carousel.slide{
 padding-top: 90px;
+
+}
+/* for iphone */
+@media only screen and (min-width:200px) and (max-width:500px){
+
+    .carousel.slide{
+        padding-top: 90px;
+        width: 380px;
+        }
+
+
+}
+
+
+/* for desktop */
+@media only screen and (min-width:1279px){
+    .carousel.slide{
+        padding-top: 90px;
+        width: 1300px;
+        padding-left: 330px;
+      
+    }
+    .carousel-indicators{
+        padding-left: 300px;
+    }
+    .carousel-inner{
+        padding-left: 0px;
+
+    }
+    .carousel-control-prev{
+padding-left: 200px;
+    }
+    .carousel-control-next{
+padding-left: 100px;
+    }
+    .container{
+        text-align: center;
+        padding-top: 20px;
+        font-weight: bold;
+    }
 }
